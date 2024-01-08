@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ChatGPT</title>
+  </head>
+  <body>
+    <div class="main_section display_flex">
+      <div class="top_nav">
+        <img src="menu.svg" alt="menu" />
+        <div>New Chat</div>
+        <img src="add.svg" alt="add" width="60px"/>
+      </div>
+      <div class="left_section">
+        <section class="display_flex button_panel">
+          <div class="display_flex new_chat_button">
+            <img
+              src="add.svg"
+              alt="plus icon"
+              width="25%"
+              style="color: white"
+            />
+            <span>New Chat</span>
+          </div>
+          <div class="side_bar">
+            <img src="sidebar.svg" alt="sidebar panel" />
+          </div>
+        </section>
+        <div class="query_section">
+          <section class="list_section">
+            <div class="header">Previous 30 days</div>
+            <ul>
+              <li><img src="chat.svg" alt="" />Question 1</li>
+              <li><img src="chat.svg" alt="" />Question 2</li>
+              <li><img src="chat.svg" alt="" />Question 3</li>
+            </ul>
+          </section>
+          <section class="list_section">
+            <div class="header">October 2023</div>
+            <ul>
+              <li><img src="chat.svg" alt="" />Question 1</li>
+              <li><img src="chat.svg" alt="" />Question 2</li>
+              <li><img src="chat.svg" alt="" />Question 3</li>
+            </ul>
+          </section>
+          <section class="list_section">
+            <div class="header">September 2023</div>
+            <ul>
+              <li><img src="chat.svg" alt="" />Question 1</li>
+              <li><img src="chat.svg" alt="" />Question 2</li>
+              <li><img src="chat.svg" alt="" />Question 3</li>
+            </ul>
+          </section>
+        </div>
+        <div class="profile_section">
+          <div class="upgrade_section display_flex">
+            <img src="arrow.svg" alt="" />
+            <span>Upgrade to plus</span>
+          </div>
+          <div class="display_flex" style="align-items: center; color: white">
+            <div class="profile_details display_flex">
+              <img src="profile.png" alt="profile" />
+              <span>User Name</span>
+            </div>
+            <span>...</span>
+          </div>
+        </div>
+      </div>
+      <div class="right_section">
+        <div class="container">
+          <div class="display_flex button_toggle">
+            <div class="free_version display_flex">
+              <img src="bolt.svg" alt="bolt" />
+              <p>GPT-3.5</p>
+            </div>
+            <div class="prem_version display_flex">
+              <img src="s1.png" alt="sparkles" />
+              <p>GPT-4</p>
+              <img src="lock.png" alt="" class="lock_icon" />
+            </div>
+          </div>
+          <div class="view_section">ChatGPT</div>
+          <div class="bottom_section">
+            <div class="cards_group display_flex">
+              <div class="card">
+                <div class="header">Come up with concepts</div>
+                <div class="sub_header">for a retro style arcade game</div>
+              </div>
+              <div class="card">
+                <div class="header">Design a database schema</div>
+                <div class="sub_header">for a online merch store</div>
+              </div>
+              <div class="card display_none">
+                <div class="header">show me a code snippet</div>
+                <div class="sub_header">of a website's sticky header</div>
+              </div>
+              <div class="card display_none">
+                <div class="header">Write a python script</div>
+                <div class="sub_header">
+                  to automate sending daily email reports
+                </div>
+              </div>
+              <div class="card_input">
+                <input
+                type="text"
+                placeholder="Send message"
+              />
+              <span><img src="send.svg" alt=""></span>
+              </div>
+              
+
+              <div class="footer_note">
+                ChatGPT can make mistakes. Verify important information.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
